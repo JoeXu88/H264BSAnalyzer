@@ -1,0 +1,73 @@
+﻿cl : 命令行 warning D9002: 忽略未知选项“/NODEFAULTLIB:library”
+  H264Decode.cpp
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264Decode.cpp(101,12): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264Decode.cpp(114,54): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264Decode.cpp(77,1): warning C4996: 'av_register_all': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(2057): message : 参见“av_register_all”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264Decode.cpp(141,1): warning C4996: 'avpicture_get_size': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavcodec\avcodec.h(5524): message : 参见“avpicture_get_size”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264Decode.cpp(150,1): warning C4996: 'avpicture_fill': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavcodec\avcodec.h(5509): message : 参见“avpicture_fill”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264Decode.cpp(283,1): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavcodec\avcodec.h(4842): message : 参见“avcodec_decode_video2”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264Decode.cpp(355,1): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavcodec\avcodec.h(4842): message : 参见“avcodec_decode_video2”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264Decode.cpp(616,1): warning C4996: 'avcodec_encode_video2': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavcodec\avcodec.h(5476): message : 参见“avcodec_encode_video2”的声明
+  H264ToVideo.cpp
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(53,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(55,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(56,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(57,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(58,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(59,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(65,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(66,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(67,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(40,1): warning C4996: 'av_register_all': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(2057): message : 参见“av_register_all”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(121,12): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(144,44): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(158,27): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(101,1): warning C4996: 'av_register_all': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(2057): message : 参见“av_register_all”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(144,1): warning C4996: 'avcodec_copy_context': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavcodec\avcodec.h(4249): message : 参见“avcodec_copy_context”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(314,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(315,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(316,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(317,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(318,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(322,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(323,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(324,23): warning C4996: 'AVStream::codec': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(885): message : 参见“AVStream::codec”的声明
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\H264ToVideo.cpp(297,1): warning C4996: 'av_register_all': 被声明为已否决
+E:\Code\thirdparty\H264BSAnalyzer-master\H264BSAnalyzer\ffmpeg\include\libavformat\avformat.h(2057): message : 参见“av_register_all”的声明
+  h264_analyze.cpp
+  tjpeg_utils.cpp
+  正在生成代码...
+  H264BSAnalyzer.vcxproj -> E:\Code\thirdparty\H264BSAnalyzer-master\Debug\H264BSAnalyzer.exe

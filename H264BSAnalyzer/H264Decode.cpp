@@ -10,6 +10,17 @@
 #include "bmp_utils.h"
 #include "tjpeg_utils.h"
 
+#if _MSC_VER>=1900
+#include "stdio.h" 
+_ACRTIMP_ALT FILE* __cdecl __acrt_iob_func(unsigned);
+#ifdef __cplusplus 
+extern "C"
+#endif 
+FILE * __cdecl __iob_func(unsigned i) {
+    return __acrt_iob_func(i);
+}
+#endif /* _MSC_VER>=1900 */
+
 #ifdef _DEBUG_
 int debug(const char* fmt, ...)
 {
@@ -545,7 +556,7 @@ int CH264Decoder::writeJPGFile(const char* filename)
     JPGCodecCtx->time_base.den = avctx->time_base.den;
     JPGCodecCtx->mb_lmin = JPGCodecCtx->qmin * FF_QP2LAMBDA;
     JPGCodecCtx->mb_lmax = JPGCodecCtx->qmax * FF_QP2LAMBDA;
-    JPGCodecCtx->flags   = CODEC_FLAG_QSCALE;
+    JPGCodecCtx->flags   = AV_CODEC_FLAG_QSCALE;
     JPGCodecCtx->global_quality = JPGCodecCtx->qmin * FF_QP2LAMBDA;
 
     if (avcodec_open2(JPGCodecCtx, JPGCodec, NULL) < 0)

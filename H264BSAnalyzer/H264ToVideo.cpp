@@ -50,7 +50,7 @@ int H264BS2Video::openVideoFile(const char* videofile, int width, int height, in
 
     // 注：使用以下参数，无法生成正常的mp4
     if (m_outfctx->oformat->flags & AVFMT_GLOBALHEADER)
-    m_outstream->codec->flags |= CODEC_FLAG_GLOBAL_HEADER;
+    m_outstream->codec->flags |= AV_CODEC_FLAG_GLOBAL_HEADER;
 
     m_outstream->codec->codec_id = AV_CODEC_ID_H264;
     m_outstream->codec->codec_type = AVMEDIA_TYPE_VIDEO;
@@ -155,7 +155,7 @@ int H264BS2Video::openVideoFile(const char* rawfile, const char* videofile, int 
     m_outstream->r_frame_rate.num = fps;
 #endif
     if (m_outfctx->oformat->flags & AVFMT_GLOBALHEADER)
-        m_outstream->codec->flags |= CODEC_FLAG_GLOBAL_HEADER;
+        m_outstream->codec->flags |= AV_CODEC_FLAG_GLOBAL_HEADER;
 
 #if 0
     m_outstream->codec->codec_id = m_instream->codec->codec_id;

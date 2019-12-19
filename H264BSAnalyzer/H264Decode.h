@@ -8,6 +8,7 @@ extern "C" {
 #include "libavutil/imgutils.h"
 }
 
+#if 0
 #ifdef WIN32
 // ¾²Ì¬¿â
 #pragma comment(lib, "libgcc.a") // divdi3(), etc.
@@ -20,6 +21,7 @@ extern "C" {
 #pragma comment(lib, "libswscale.a")
 #pragma comment(lib, "libswresample.a")
 
+#endif
 #endif
 
 #define _DEBUG_
